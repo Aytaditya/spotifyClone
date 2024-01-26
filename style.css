@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Heebo:wght@100&family=Lumanosimo&family=Oswald&family=Roboto+Mono:ital,wght@1,200&family=Ubuntu:wght@300&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Dancing+Script&family=Fuggles&family=Heebo:wght@100&family=Lumanosimo&family=Mukta:wght@200;300&family=Oswald&family=Roboto+Mono:ital,wght@1,200&family=Rubik+Lines&family=Ubuntu:wght@300&family=Young+Serif&display=swap');
+
+body {
+    background-color: blanchedalmond;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Lumanosimo', cursive;
+    font-weight: bold;
+    background-color: rgb(12, 12, 12);
+    color: rgb(247, 232, 232);
+}
+
+.container .songlist h1 {
+    border-bottom: 2px solid rgb(152, 200, 239);
+
+}
+
+nav ul {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+    padding-top: 12px;
+    margin-left: 5px;
+    align-items: center;
+
+}
+
+nav ul .home:hover,
+.about:hover ,.links:hover,.contact:hover, .subscribe:hover{
+    color: rgb(77, 240, 186);
+    cursor: pointer;
+    border: 2px solid rgb(77, 240, 186);
+    border-radius: 10px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+nav ul img {
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.container {
+    min-height: 75vh;
+    background: url(background8.jpg) center center no-repeat;
+    font-family: 'Ubantu';
+    color: rgb(77, 240, 186);
+    text-shadow: black(2 3);
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.bottom {
+    position: sticky;
+    height: 80px;
+    background-color:black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.icons {
+    margin-top: 12px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 70vw;
+    
+    background: blue;
+
+}
+
+
+.songItem {
+    color: aliceblue;
+    height: 30px;
+    background-color: white;
+    color: black;
+    margin: 15px 0;
+    margin-left: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+
+}
+
+.songItemContainer {
+    margin-top: 70px;
+}
+
+.songItem img {
+    height: 30px;
+    width: 30px;
+    margin: 0 20px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 15px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 7vw;
+}
+
+.bottom .icons i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+#myProgressBar{
+    cursor: pointer;
+}
